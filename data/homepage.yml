@@ -1,9 +1,10 @@
 # showcase
 showcase:
   enable: true
+  headtitle: "Stephen Ajulu - I.T Consultant, Front End Web Developer, Graphic Designer & Content Creator "
   title: "Hello, I’m Stephen Ajulu."
-  subtitle: "I.T Consultant, Front End Web Developer, Graphic Designer & Content Creator"
-  description: "I work as a freelancer online and as such spend most of my days writing articles, designing & building projects. I recently started learning design(Web, UI, UX, Industrial & Graphic), illustration, photography, film making, animation, video editing, calligraphy, copywriting, web development, python, cloud computing, cybersecurity, machine learning, marketing & golang to further my expertise as a creative"
+  subtitle: "I.T Consultant, Web Developer, Graphic Designer & Content Creator"
+  description: "I work as a freelancer online and as such spend most of my days writing articles, designing & building things e.g. brands, websites, graphic materials, courses, pdfs and more. I recently started learning design(Web, UI, UX, Industrial & Graphic), illustration, photography, film making, animation, video editing, calligraphy, copywriting, web development, python, cloud computing, cybersecurity, machine learning, marketing & golang to further my expertise as a creative. I love to create, represent, grow and sell things."
   image:
     x: "img/showcase/2.jpg"
     _2x: "img/showcase/2.jpg"
@@ -45,17 +46,12 @@ showcase:
 
 # about
 about:
-  enable: true
+  enable: false
   title: "Who am I?"
   content: '<p class="lead">
-    I am back, after a few days of vacationing with family. Weather was awesome, the beach was
-    full of nasty jelly-fish, yuk! All-in-all, life has been good. I hope life has been as
-    good for all of you.
-    </p>
-    <p class="lead">
-    My area of focus lies in designing web and mobile products, user research as well as
-    leading of design & front-end teams. I enjoy designing and coding the UI as much as
-    talking with users to iterate and improve the experiences that reach business goals.
+    I work as a freelancer online and as such spend most of my days writing articles, designing & building projects. 
+    I recently started learning design(Web, UI, UX, Industrial & Graphic), illustration, photography, film making, animation, 
+    video editing, calligraphy, copywriting, web development, python, cloud computing, cybersecurity, machine learning, marketing & golang to further my expertise as a creative"
     </p>'
   button:
     icon: "icon-smile-fill"
@@ -70,45 +66,81 @@ education:
   enable: true
   title: "Education"
   items:
-    - university: "University of Waterloo"
-      year: "2012-2017"
-      degree: "Bachelor of Applied Science (BASc), Electrical Engineering"
+    - university: "Mount Kenya University"
+      year: "9th January 2019 - Ongoing"
+      degree: "Bachelor of Science in Information Technology"
 
-    - university: "Sir John A Macdonald CI"
-      year: "2009-2012"
+    - university: "IBM"
+      year: "24th May 2019"
+      degree: "Cloud, cybersecurity and Web Development Introduction"
+
+    - university: "IBM"
+      year: "24th May 2019"
+      degree: "Identification and Investigation of Cybersecurity Threats"
+
+    - university: "Institute of Software Technologies"
+      year: "9th April - 28th 2018"
+      degree: "Certified Ethical Hacking"
+
+    - university: "St. Paul's University"
+      year: "5th January - 18th November 2017"
       degree: "High School Diploma, Sciences, Math, Computer & Business Studies"
+
+    - university: "Cybrary"
+      year: "9th December 2018"
+      degree: "Fundamental System Troubleshooting"
+
+    - university: "Epren School of Professional Studies"
+      year: "28th November 2016"
+      degree: "Adobe Photoshop & Corel Draw"
+
+    - university: "St. Paul's University"
+      year: "7th January - 23rd August 2015"
+      degree: "Certificate of Business and Information Technology"
+
+    - university: "Highway Secondary School"
+      year: "9th January 2010 - 20th December 2014"
+      degree: "Kenya Certificate of Secondary Education"
 
 # experience
 experience:
   enable: true
   title: "Experience"
-  description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
+  description: "Over 10+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
-    URL: "https://www.linkedin.com/company/radity/"
+    URL: "https://www.linkedin.com/in/stephenajulu"
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
-    URL: "#"
+    URL: "/cv.docx"
 
   items:
-    - title: "Sr. Front-End Developer"
-      company: "Radity"
-      duration: "Feb 2011 - Sep 2019"
+    - title: "Writer, Editor, Researcher, Graphic Designer and Web Developer"
+      company: "SAOA Media"
+      duration: "Jan 2021 - Present"
 
-    - title: "Sr. Front-End Developer"
-      company: "Textic"
-      duration: "Apr 2010 - Jan 2011"
+    - title: "Founder, C.E.O, Front End Developer, Graphic Desiger and I.T Consultant"
+      company: "OwlSec Technologies"
+      duration: "Apr 2016 - Jan 2021"
 
-    - title: "Jr. Front-End Developer"
-      company: "Cyberse"
-      duration: "Jun 2009 - Mar 2010"
+    - title: "M & E Secretariet"
+      company: "Kenyan Ministry of Devolution and Planning"
+      duration: "November 2014 & 2015"
+
+    - title: "Writer, Editor, Researcher and Founder"
+      company: "Ajulu's Thoughts"
+      duration: "August 2014 - Present"
+
+    - title: "Writer, Editor, Researcher and Consultant"
+      company: "TechKnow, TechWit, The Noesis Magazine, The Bistro Ke Newsletter and Stream 254"
+      duration: "August 2019 - Present"
 
 # Client & Work
 client_and_work:
   title: "Clients & Works"
-  enable: true
+  enable: false
 
   clients:
     - logo:
@@ -177,7 +209,7 @@ client_and_work:
 
 # testimonial
 testimonial:
-  enable: true
+  enable: false
   title: "Testimonials"
   items:
     - name: "Daniel Jordan"
@@ -212,13 +244,13 @@ contact:
     message: "Type Your Message Here"
   phone:
     title: "Phone Number"
-    number: "+41 (44) 505 10 99"
+    number: "+254 726 024 210"
   email:
     title: "Email"
-    email: '<a href="mailto:team@radity.com">team@radity.com</a>'
+    email: '<a href="mailto:alunje73@gmail.com">alunje73@gmail.com</a>'
   address:
     title: "Address"
-    address: "Radity GmbH<br />Max-Bill-Platz 5, 8050 Zürich"
+    address: "P. O. Box 0740128010<br />Nairobi, Kenya"
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
@@ -229,4 +261,4 @@ newsletter:
   title: "Newsletter subscription"
   success_message: "Successfully subscribed"
   error_message: "Error while subscribing."
-  note: "We'll never share your email with anyone else."
+  note: "I'll never share your email with anyone else."

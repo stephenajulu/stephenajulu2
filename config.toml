@@ -79,6 +79,6 @@ languageCode = "en-us"
   [params.footer]
       copyright = "© Stephen Ajulu. All rights reserved."
       [params.footer.radity_logo]
-        x = "img/general/design-and-code-radity.png"
-        _2x = "img/general/design-and-code-radity@2x.png"
-        alt = "Design & Code - Radity"
+        x = "img/favicon.png"
+        _2x = "img/favicon.png"
+        alt = "Stephen Ajulu - I.T Consultant, Front End Web Developer, Graphic Designer and Contant Creator"
