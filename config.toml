@@ -1,6 +1,5 @@
-baseURL = "https://raditian-hugo.radity.com/"
+baseURL = "https://stephenajulu2.netlify.app/"
 languageCode = "en-us"
-theme = "raditian-free-hugo-theme"
 
 # Plugins
 [params.plugins]
@@ -40,6 +39,11 @@ theme = "raditian-free-hugo-theme"
   URL = "#contact"
   weight = 4
 
+  [[menu.header]]
+  name = "Blog"
+  URL = "https://ajulusthoughts.stephenajulu.com"
+  weight = 5
+
 
   [[menu.footer]]
   name = "About"
@@ -56,6 +60,11 @@ theme = "raditian-free-hugo-theme"
   URL = "#contact"
   weight = 4
 
+  [[menu.footer]]
+  name = "Blog"
+  URL = "https://ajulusthoughts.stephenajulu.com"
+  weight = 5
+
 
 [params]
 
@@ -64,11 +73,11 @@ theme = "raditian-free-hugo-theme"
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
   [params.logo]
-    text1 = "Andreas"
-    text2 = "Ellure"
+    text1 = "Stephen"
+    text2 = "Ajulu"
 
   [params.footer]
-      copyright = "© Raditian. All rights reserved."
+      copyright = "© Stephen Ajulu. All rights reserved."
       [params.footer.radity_logo]
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"
